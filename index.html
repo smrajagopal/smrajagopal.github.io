@@ -1,19 +1,187 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+	<head>
+		<title>Raja Gopal - CodePen Portfolio</title>
+		<meta charset="utf-8" /> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  	<style>
+			.background_settings { 
+			  -webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  -o-background-size: cover;
+			  background-size: cover;
+			}
+			.home_background {
+			  background: url("https://dl.dropboxusercontent.com/s/by1vhnzmyvywyog/bg-4-full.jpg") no-repeat center center fixed;
+			  min-height: 500px;
+			}
+			.pens_background {
+			  background: url("https://dl.dropboxusercontent.com/s/5uu1oyhltvz2as6/bg-2-full.jpg") no-repeat center center fixed; 
+			  min-height: 500px;
+			  padding: 10%;
+			}
+			.webpresence_background {
+			  background: url("https://dl.dropboxusercontent.com/s/nfojox0f3hr6mp5/bg-1-full.jpg") no-repeat center center fixed; 
+			  min-height: 500px;
+			  padding-top: 200px;
+			  padding-bottom: 200px;
+			}
+			.fcc-icon { 
+				width: 18px; 
+			}
+			.align_aboutme {
+			    display: table;
+			    margin-left: 200px;
+			}
+			.border-settings {
+				border-radius: 50%;
+			}
+			body {
+			  position: relative;
+			  padding-top: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <i class="icon-bar"></i>
+            <i class="icon-bar"></i>
+            <i class="icon-bar"></i>
+          </button>
+          <a class="navbar-brand" href="#home">Raja Gopal</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#pens">Pens</a></li> 
+            <li><a href="#webpresence">WebPresence</a></li> 
+          </ul>
+        </div>
+		  </div>
+		</nav>
 
-	<!-- Font Awesome CSS MaxCDN -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!--Home Section-->
+		<div id="home" class="container-fluid background_settings home_background">
+			<div style="color:white">
+	    	<h1 class="text-center"><strong>Raja Gopal Muralidharan</strong></h1>
+	    	<h6 class="text-center"><a style="color:white" href="http://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage" target="_blank">FreeCodeCamp Zipline Challenge: Build a Personal Portfolio Webpage</a></h6>
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	    	<div class="align_aboutme">
+	    		<div class="row">
 
-	<!-- Latest compiled JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </head>
-  <body>
+		    		<div class="col-md-6">
+				    	<p>I am a <a style="color:white" href="http://www.freecodecamp.com/smrajagopal" target="_blank">self-taught</a> web developer.</p> 
+							<p>One of the many thousands of students of <a style="color:white" href="http://www.freecodecamp.com" target="_blank">freecodecamp.com</a>.</p>
+							<p>C++ Professional.</p>
+							<p>Linux Enthusiast.</p>
+							<p>Likes:</p>
+							<ul>
+								<li><a style="color:white" href="https://en.wikipedia.org/wiki/Rajinikanth" target="_blank">Rajinikanth - Indian Actor</a></li>
+								<li>Command Line Interface</li>
+								<li>Coding</li>
+								<li>Stackoverflow</li>
+								<li>vim</li>
+								<li>git</li>
+								<li><a style="color:white" href="https://www.github.com" target="_blank">github</a></li>
+								<li>grep</li>
+								<li>Kollywood and Bollywood Movies and Music</li>
+							</ul>
+							<p>Learning:</p>
+							<ul>
+								<li>Python</li>
+								<li>HTML5</li>
+								<li>CSS</li>
+								<li>Javascript</li>
+								<li>jQuery</li>
+							</ul>
+						</div>
+
+						<div class="col-md-3" style="padding: 20px; 20px;">
+		    			<img class="img-responsive border-settings"
+									 src="https://dl.dropboxusercontent.com/s/bfh7z3vh55cgqhk/IMG_4062.JPG"
+		    					 alt="display_picture"
+		    					 >
+		    		</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Pens Section-->
+		<div id="pens" class="container-fluid background_settings pens_background">
+			<h1 style="padding-bottom: 10px; color: black;" class="text-center">Front End Projects</h1>
+			<div class = "row">
+
+			   <div class = "col-sm-6 col-md-4">
+			      <a href = "http://codepen.io/smrajagopal/full/KVXyQQ/" class = "thumbnail" target="_blank">
+			         <img src = "https://dl.dropboxusercontent.com/s/gke6an561mvyi93/CatPhotoApp.png" alt = "Cat Photo App Codepen">
+			      </a>
+			   </div>
+
+			   <div class = "col-sm-6 col-md-4">
+			      <a href = "http://codepen.io/smrajagopal/full/WrovgW/" class = "thumbnail" target="_blank">
+			         <img src = "https://dl.dropboxusercontent.com/s/rggtul585vsbrw2/Portfolio.png" alt = "Personal Portfolio Codepen">
+			      </a>
+			   </div>
+
+			   <div class = "col-sm-6 col-md-4">
+			      <a href = "http://codepen.io/smrajagopal/pen/obdqww" class = "thumbnail" target="_blank">
+			         <img src = "https://dl.dropboxusercontent.com/s/hpggug3wrovl4yv/Placeholder.png" alt = "Placeholder">
+			      </a>
+			   </div>
+			   
+			</div>
+		</div>
+
+		<!--WebPresence Section -->
+		<div id="webpresence" class="container-fluid background_settings webpresence_background">
+			<h1 style="padding-bottom: 10px;" class="text-center text-primary">Web Presence</h1>
+	    <div class="row">
+	      <div class="col-md-3">
+	        <a href="https://github.com/smrajagopal/" target="_blank">
+	          <button class="btn btn-block btn-default"><i class="fa fa-github"></i> Github</button>
+	        </a>
+	      </div>
+
+	      <div class="col-md-3">
+	        <a href="https://www.linkedin.com/in/smrajagopal/" target="_blank">
+	          <button class="btn btn-block btn-primary"><i class="fa fa-linkedin"></i> LinkedIn</button>
+	        </a>
+	      </div>
+
+	      <div class="col-md-3">
+	        <a href="https://twitter.com/smrajagopal/" target="_blank">
+	          <button class="btn btn-block btn-info"><i class="fa fa-twitter"></i> Twitter</button>
+	        </a>
+	      </div>
+
+	      <div class="col-md-3">
+	        <a href="http://www.freecodecamp.com/smrajagopal/" target="_blank">
+	          <button class="btn btn-block btn-success">
+	            <img class="fcc-icon" src="https://dl.dropboxusercontent.com/s/bo4k94zbkmahbtp/freecodecamp_logo.png"> FreeCodecamp
+	          </button>
+	        </a>
+	      </div>
+
+	    </div>
+   	</div>
+
+   	<!-- Footer Section -->
+		<div class="container-fluid">
+				<div class="row" style="padding: 1em 0em 1em 0em;">
+				  <div class="col-sm-2" style="margin-left:10em">&copy; 2016</div>
+          <div class="col-sm-2" style="margin-left:0.5em"><a href="#home">Home</a></div>
+          <div class="col-sm-2" style="margin-left:0.5em"><a href="#pens">Pens</a></div>
+          <div class="col-sm-2" style="margin-left:0.5em"><a href="#webpresence">WebPresence</a></div>
+				</div>
+		</div>
+
   </body>
-</html>
+</html>	
